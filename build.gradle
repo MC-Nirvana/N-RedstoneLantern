@@ -9,11 +9,24 @@ version = mod_version
 group = mod_group_id
 
 repositories {
+    // 阿里云中央仓库
+    maven {
+        name = "aliyun-central"
+        url = "https://maven.aliyun.com/repository/central"
+    }
+    // 阿里云公共仓库
+    maven {
+        name = "aliyun-public"
+        url = "https://maven.aliyun.com/repository/public"
+    }
+    // Maven中央仓库
+    mavenCentral()
+    // Maven本地仓库
     mavenLocal()
 }
 
 base {
-    archivesName = mod_id
+    archivesName = mod_name
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
