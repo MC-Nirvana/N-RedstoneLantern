@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/chain",
+  "textures": {
+    "particle": "n_redlantern:block/redstone_chain_deactivate",
+    "all": "n_redlantern:block/redstone_chain_deactivate"
+  }
+}

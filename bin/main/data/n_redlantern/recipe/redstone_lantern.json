@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#L#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:redstone",
+        "L": "minecraft:lantern"
+    },
+    "result": {
+        "id": "n_redlantern:redstone_lantern",
+        "count": 1
+    }
+}

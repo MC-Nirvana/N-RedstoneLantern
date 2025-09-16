@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:redstone",
+    "minecraft:chain"
+  ],
+    "result": {
+        "id": "n_redlantern:redstone_chain",
+        "count": 1
+    }
+}

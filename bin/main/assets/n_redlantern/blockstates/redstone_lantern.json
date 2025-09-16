@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hanging=false,lit=false": {
+      "model": "n_redlantern:block/lantern"
+    },
+    "hanging=true,lit=false": {
+      "model": "n_redlantern:block/lantern_hanging"
+    },
+    "hanging=false,lit=true": {
+      "model": "n_redlantern:block/lantern_activate"
+    },
+    "hanging=true,lit=true": {
+      "model": "n_redlantern:block/lantern_hanging_activate"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=x,is_powered=false": {
+      "model": "n_redlantern:block/redstone_chain_deactivate",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,is_powered=false": {
+      "model": "n_redlantern:block/redstone_chain_deactivate"
+    },
+    "axis=z,is_powered=false": {
+      "model": "n_redlantern:block/redstone_chain_deactivate",
+      "x": 90
+    },
+    "axis=x,is_powered=true": {
+      "model": "n_redlantern:block/redstone_chain_activate",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,is_powered=true": {
+      "model": "n_redlantern:block/redstone_chain_activate"
+    },
+    "axis=z,is_powered=true": {
+      "model": "n_redlantern:block/redstone_chain_activate",
+      "x": 90
+    }
+  }
+}

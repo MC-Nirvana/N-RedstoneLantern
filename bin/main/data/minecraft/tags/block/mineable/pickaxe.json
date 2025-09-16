@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "n_redlantern:redstone_chain",
+    "n_redlantern:redstone_lantern"
+  ]
+}
